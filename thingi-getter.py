@@ -141,8 +141,6 @@ print(f"Directories were created at: {base_dir}")
 
 # Save the images
 slides = html.select('li.slide')
-print(slides)
-# print(html.find_all("li"))
 print(f"{len(slides)} Slides found...")
 save_slides(slides)
 
