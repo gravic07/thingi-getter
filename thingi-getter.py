@@ -112,7 +112,7 @@ comments_url = base_url + "comments"
 
 # Setup the Selenium browser
 options = Options()
-# options.add_argument("--headless")
+options.add_argument("--headless")
 browser = webdriver.Chrome("./chromedriver", options=options)
 
 # Get the URL and load BS object
